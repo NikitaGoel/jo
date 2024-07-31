@@ -653,6 +653,7 @@ int version(int flags)
 
 int main(int argc, char **argv)
 {
+    printf("in main");
 	int c, key_delim = 0;
 	bool showversion = false;
 	char *kv, *js_string, *progname, *buf, *p;
